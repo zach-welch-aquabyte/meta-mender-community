@@ -1,4 +1,4 @@
-EXTRADEPS:tegra = "tegra-bup-payload tegra-uefi-capsules libubootenv-fake mender-update-verifier"
+EXTRADEPS:tegra = "tegra-uefi-capsules libubootenv-fake mender-update-verifier"
 RDEPENDS:${PN} += "${EXTRADEPS}"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
