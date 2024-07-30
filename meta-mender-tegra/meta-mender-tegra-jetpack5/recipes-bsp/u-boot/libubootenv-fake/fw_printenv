@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -Eeo pipefail
+
 LABELCHARS="AB"
 
 get_bootpart() {
